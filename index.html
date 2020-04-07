@@ -1,0 +1,82 @@
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="container m-5"></div>
+
+  <div class="result">
+   
+  </div>
+
+
+
+  <form  name="formLoto" class="card p-5 m-5">
+      <h3 class="text-center text-info"> Fancy another loto party ?</h3>
+      <p class="mt-5 text-info"> Enter your details</p>
+      <div class="row ">
+        <div class="col-md-3">
+          <input type="text" name="firstname" class="form-control" placeholder="Firstname">
+        </div>
+        <div class="col-md-3 ml-md-2">
+          <input type="text" name="lastname" class="form-control" placeholder="Lastname">
+        </div>
+        <div class="col-md-3 ml-md-2">
+          <input type="text" name="email" class="form-control" placeholder="Email">
+        </div>
+      </div>
+      <p class="mt-5 text-info"> Choose your 6 lucky number</p>
+      <div class="row ">
+        <div class="col-md-1">
+          <input type="number" name="number1" class="form-control" placeholder="">
+        </div>
+        <div class="col-md-1">
+          <input type="number" name="number2"  class="form-control" placeholder="">
+        </div>
+        <div class="col-md-1">
+          <input type="number" name="number3" class="form-control" placeholder="">
+        </div>
+        <div class="col-md-1">
+          <input type="number" name="number4" class="form-control" placeholder="">
+        </div>
+        <div class="col-md-1">
+          <input type="number" name="number5" class="form-control" placeholder="">
+        </div>
+        <div class="col-md-1">
+          <input type="number" name="number6" class="form-control" placeholder="">
+        </div>
+      </div>
+
+      <div class=" mt-5 form-group row text-center">
+        <div class="col">
+          <button type="submit" id="submit" class="btn btn-info">Check Result</button>
+        </div>
+      </div>
+      
+    </form>
+
+    <script>
+      var submit = document.getElementById("submit");    
+      submit.addEventListener('click', function(event) {
+          event.preventDefault();
+           newGame();
+      });
+    </script>
+  </div>
+
+</body>
+</html>
+

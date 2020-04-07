@@ -3,5 +3,7 @@
 
 ### 100% of the winners tried their luck
 
-[link to Loto Page!](https://laspargus.github.io/loto/)
+https://nans64.github.io/JS-loto/
 # JS-loto
+
+Avec l'aide de mon cher Speroni ! 
